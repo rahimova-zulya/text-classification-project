@@ -26,13 +26,13 @@ We compared **7 machine learning and deep learning models**, performed comprehen
 
 | Model | Test F1 (macro) | Training time (min) |
 |-------|-----------------|---------------------|
-| **LogisticRegression + TF-IDF (optimized)** | **0.9875** | 0.49 |
-| SVM + TF-IDF (lightning) | 0.9860 | 1.53 |
-| MultinomialNB + TF-IDF | 0.9840 | 3.13 |
-| RandomForest + TF-IDF | 0.9835 | 3.01 |
-| SentenceTransformers + LR | 0.9820 | 36.42 |
-| KNN + TF-IDF (optimized) | 0.9800 | 1.67 |
-| ruBERT-tiny + LR | 0.9595 | 3.07 |
+| **LogisticRegression + TF-IDF (optimized)** | **0.9875** | 0.77 |
+| SVM + TF-IDF (lightning) | 0.9860 | 1.56 |
+| MultinomialNB + TF-IDF | 0.9840 | 2.97 |
+| RandomForest + TF-IDF | 0.9835 | 2.90 |
+| SentenceTransformers + LR | 0.9820 | 31.62 |
+| KNN + TF-IDF (optimized) | 0.9800 | 1.70 |
+| ruBERT-tiny + LR | 0.9595 | 2.72 |
 
 **Best model:** LogisticRegression + TF-IDF (C=10, max_features=7000) with F1‑macro = **0.9875** and training time under 30 seconds.
 
