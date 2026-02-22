@@ -1,0 +1,4 @@
+{
+  "tfidf__max_features": 9000,
+  "clf__C": 10
+}
